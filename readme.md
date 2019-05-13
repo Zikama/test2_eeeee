@@ -9,6 +9,10 @@ and run the following command
 ```
 To the the local server run
 ```sh
+    npm install
+```
+
+```sh
     node app.js
 ```
 

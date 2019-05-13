@@ -1,12 +1,11 @@
 {
   "name": "CanadaVisa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Assess your eligibility to immigrate to Canada through general immigration Express entry and Province skilled workers programs",
   "main": "app.js",
-  "dependencies": {
+  "devDependencies": {
     "express": "^4.16.4"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
