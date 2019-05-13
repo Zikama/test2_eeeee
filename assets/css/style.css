@@ -1,0 +1,291 @@
+*,
+	*::before,
+	*::after{
+		box-sizing: border-box;
+		-webkit-transition: 0.31s linear;
+		   -moz-transition: 0.31s linear;
+		    -ms-transition: 0.31s linear;
+		        transition: 0.31s linear;
+	}
+	body {
+	    font-family: sans-serif;
+	    margin: 0;
+	    padding: 0;
+	}
+	.personal_info_container {
+		display: flex;
+		flex-wrap: wrap;
+	    width: 95%;
+	    margin: auto;
+	}.personal_info_container .fig {
+	    width: 28%;
+	    margin: 0;
+	    margin-right: auto;
+	}
+	.personal_info_container .lbl {
+	    margin: 10px 0px;
+	}
+	.personal_info_container .fig .slc {
+	    width: 100%;
+	}
+	.personal_info_container h4.sub_title {
+	    width: 92%;
+	}
+	.sec {
+	    display: flex;
+	    max-width: 85%;
+	    margin: auto;
+	}
+	.f_1 {
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	.f_title {
+	    color: brown;
+	    font-weight: 500;
+	}.education {
+	    width: 100%;
+	}.lbl {
+	    width: 100%;
+	    color: black;
+	}.sub_title {
+	    font-size: x-large;
+	    font-weight: bold;
+	}
+	.slc {
+	    width: 31%;
+	    border: 1px solid rgba(173, 173, 173, 0.75);
+	    padding: 8px 10px;
+	    font-size: larger;
+	    background: white;
+	    border-radius: 4px;
+	    box-shadow: inset 0 0 20px 0px hsla(0, 0%, 0%, 0.18);
+	}.f_tab {
+	    background: white;
+		border: 1px solid #bdbcbc;
+		font-size: x-large;
+		margin: 0;
+		padding: 9px 20px;
+		cursor: pointer;
+	    box-shadow: inset 0 0 7px 0px hsla(0, 0%, 0%, 0.17);
+	    border-radius: 4px;
+	}
+	.f_active_tab{    
+		background: #0ab2f5;
+	    color: azure;
+	}.f_tab:hover, .f_tab:active {
+	    background: #0ab2f5;
+	    color: azure;
+    }.f_tab:active {
+		/*border: 0;*/
+		box-shadow: 0 0 7px 0px hsla(0, 0%, 0%, 0.17);
+	}
+	.contact_info {
+	    width: 100%;
+	}
+	.contact_info_fields {
+	    width: 100%;
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	figure.fig {
+	    display: flex;
+	    flex-wrap: wrap;
+	    width: 28%;
+	}[type="submit"]:focus,select:focus,button:focus,input:focus,.input:focus,.f_tab:focus,.slc:focus {
+	    box-shadow: 0 0 1px 5px #6ad4ff !important;
+	    outline: 0px solid transparent !important;
+	}
+	.input {
+	    width: 100%;
+	    font-size: larger;
+	    padding: 10px;
+	    border: 1px solid rgba(173, 173, 173, 0.75);
+	    border-radius: 4px;
+	    box-shadow: inset 0 0 7px 0px rgba(0, 0, 0, 0.22);
+	}
+	.lang_status_container {
+	    width: 85%;
+	    display: flex;
+	    flex-wrap: wrap;
+	    margin: auto;
+	}
+	.lang_status_fr,.lang_statu_en {
+	    width: 92%;
+	    margin: -36px auto 12px;
+	    display: flex;
+	    justify-content: space-around;
+	    margin-left: 7pc;
+	}
+	.lang_status_container .fig {
+	    width: 100%;
+	}
+	.lang_status_container .fig .lbl {
+	    width: 98%;
+	}.lang_status_container .fig .slc {
+	    width: 99%;
+	}
+	.education_container, .work_container, .express_container, .family_container, .net_container, .contact_info_fields, .question_status, .question_status   {
+	    width: 92%;
+	    margin: auto;
+	}
+
+	.net_currency {
+	    display: flex;
+	    flex-wrap: wrap;
+	}.net_currency .fig {
+	    width: 40%;
+	}
+	.net_container .slc {
+	    width: 100%;
+	}
+	#f_submit {
+	    background: #ff3d00;
+	    border: 1px solid #bdbcbc;
+	    font-size: x-large;
+	    margin: 8px auto 42px;
+	    padding: 21px 54px;
+	    cursor: pointer;
+	    box-shadow: inset 0 0 7px 0px hsla(0, 0%, 0%, 0.17);
+	    border-radius: 4px;
+	    color: azure;
+	}
+	.tab_status {
+	    display: flex;
+	}
+	.b_r{	    
+	    border-radius: 20px !important;
+	}
+	.b_r-left{	    
+		border-radius: 20px 0px 0px 20px !important;
+	}
+	.b_r-right {	    
+	    border-radius: 0 20px 20px 0 !important;
+	}
+	.b_r-no{	    
+	    border-radius: 0px !important;
+	}
+	i.q-icon {
+	    padding: 0 5px;
+	    background: black;
+	    color: white;
+	    margin: 0 5px;
+	    border-radius: 5em;
+	}
+	.q-icon-o {
+	    margin: 0 9px;
+	}
+	.f_desc {
+	    width: 100%;
+	}
+
+	@media screen and (min-width: 320px){
+		main.main {
+		    display: block;
+		    flex-wrap: wrap;
+		    max-width: 100vw;
+		}
+		.personal_info {
+		    display: flex;
+		    flex-wrap: wrap;
+		    width: 100%;
+		    max-width: 100vw;
+		}
+		.personal_info_container {
+		    display: flex;
+		    flex-wrap: wrap;
+		    width: 92%;
+		    margin: 0 0 0 auto;
+		    max-width: 100vw;
+		}
+		.personal_info_container .fig {
+		    width: 100%;
+		    margin: 0;
+		    margin-right: auto;
+		}
+		.sub_title {
+		    font-size: larger;
+		    font-weight: 600;
+		    letter-spacing: 1px;
+		    word-spacing: 8px;
+		}.f_tab {    
+			font-size: 12pt
+		}
+		.tab_status {    
+			justify-content: center;
+		}
+		.language_skills {
+		    width: 100%;
+		    display: flex;
+		    flex-wrap: wrap;
+		}
+		.lang_status_fr, .lang_statu_en {
+		    width: 100%;
+		    display: flex;
+		    justify-content: space-around;
+		    margin-left: 0;
+		    margin: 0;
+		    flex-wrap: wrap;
+		}
+		.lang_status_container .fig {
+		    width: 100%;
+		    margin-right: auto;
+		}
+		.net_currency .fig {
+		    width: 100%;
+		}
+		.contact_info_fields .fig {
+		    width: 100%;
+		    margin-right: auto;
+		    margin-left: auto;
+		}
+		#f_submit {
+		    margin: 8px auto 42px;
+		}
+		button,input[type="submit"],input[type="button"]{
+			cursor: default !important;
+		}
+
+	}
+	@media screen and (min-width: 768px){
+		.sub_title {
+		    letter-spacing: unset;
+		    word-spacing: unset;
+		}.f_tab {    
+			font-size: 16pt
+		}
+		.tab_status {
+		    justify-content: left;
+		    padding-top: 10px;
+		}
+	}
+	@media screen and (min-width: 1024px){
+		.personal_info_container .fig {
+		    width: 28%;
+		}
+		.lang_status_fr, .lang_statu_en {
+		    width: 92%;
+		    margin: -36px auto 12px;
+		    display: flex;
+		    justify-content: space-around;
+		    margin-left: 7pc;
+		}
+		.net_currency .fig {
+		    width: 35%;
+		}
+		.contact_info_fields .fig {
+		    width: 44%;
+		}
+		.lang_status_container .fig {
+		    width: 20%;
+		    margin: auto;
+		}
+		#f_submit {
+		    margin: 8px 0 42px;
+		}
+		button,input[type="submit"],input[type="button"]{
+			cursor: pointer !important;
+		}
+
+
+	}

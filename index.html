@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="author" lang="en" content="Nehemie Zikama || Anything" />
+    <meta name="copyright" lang="en" content="2019" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="content-language" content="en" />
+    <meta name="description" content="Assess your eligibility to immigrate to Canada through general immigration Express entry and Province skilled workers programs." />
+    <meta name="theme-color" content="rgb(255, 255, 255)" />
+    <link href='https://github.com/zikama' rel='author'/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Canada Visa Form | Anything</title>
+</head>
+<body>
+
+<section class="sec">
+	<main class="main">
+		<form id="form" class="f_1">
+			<div class="personal_info">
+				<h1 class="f_title">
+					Personal Information
+				</h1>
+				<div class="personal_info_container">
+					<figure class="fig">
+						<label class="lbl sub_title" for="age">Age*</label>
+						<select class="slc" id="age">
+							<option value="Select your age">Select your age</option>
+						</select>
+					</figure>
+
+					<figure class="fig">
+						<label class="lbl sub_title" for="residence">Country of Residence*</label>
+						<select class="slc" id="residence">
+							<option value="Select the country where you're currently located">Select the country where you're currently located</option>
+						</select>
+					</figure>
+
+					<figure class="fig">
+						<label class="lbl sub_title" for="destination">Preferred Destination in Canada</label>
+						<select class="slc" id="destination">
+						</select> 
+					</figure>
+
+					<h4 class=" sub_title">
+						Marital Status <i class="q-icon">?</i>
+					</h4>
+					<div class="m_status tab_status">
+						<button class="btn f_tab b_r-left" option_value="Single">Single</button>
+						<button class="btn f_tab b_r-no" option_value="Married">Married</button>
+						<button class="btn f_tab b_r-right" option_value="Common-Law Partner">Common-Law Partner</button>
+					</div>
+					<h4 class=" sub_title">
+						Do you have any children under the age of 19<i class="q-icon-o">?</i> 
+					</h4>
+					<div class="children_status tab_status">
+						<button class="btn f_tab b_r-left" option_value="Yes">Yes</button>
+						<button class="btn f_tab b_r-right" option_value="No">No</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="language_skills">
+				<h1 class="f_title">
+					Your Language Skills
+				</h1>
+				<div class="f_desc">
+					<p>Please describe your proficiency in English and/or French under each of the four skills listed below.<i class="q-icon">?</i></p>
+				</div>
+
+				<div class="lang_status_container">
+					<h2 class="sub_title_big">
+						English
+					</h2>
+					<div class="lang_statu_en">
+						<figure class="fig">
+							<label class="lbl sub_title" for="writing">Writing</label>
+							<select class="slc" id="writing">
+								<option value="Select">Select</option>
+							</select>
+						</figure>
+						<figure class="fig">
+							<label class="lbl sub_title" for="reading">Reading</label>
+							<select class="slc" id="reading">
+								<option value="Select">Select</option>
+							</select>
+						</figure>
+						<figure class="fig">
+							<label class="lbl sub_title" for="speaking">Speaking</label>
+							<select class="slc" id="speaking">
+								<option value="Select">Select</option>
+							</select>
+						</figure>
+						<figure class="fig">
+							<label class="lbl sub_title" for="listening">Listening</label>
+							<select class="slc" id="listening">
+								<option value="Select">Select</option>
+							</select>
+						</figure>
+
+					</div>
+
+					<h2 class="sub_title_big">
+						French
+					</h2>
+					<div class="lang_status_fr">
+						<figure class="fig">
+							
+							<select class="slc" id="writing">
+
+							</select>
+						</figure>
+						<figure class="fig">
+							
+							<select class="slc" id="reading">
+
+							</select>
+						</figure>
+						<figure class="fig">
+							
+							<select class="slc" id="speaking">
+
+							</select>
+						</figure>
+						<figure class="fig">
+							
+							<select class="slc" id="listening">
+
+							</select>
+						</figure>
+					</div>
+				</div>
+			</div>
+
+			<div class="education">
+				<h1 class="f_title">
+					Your Education and Training
+				</h1>
+
+				<div class="education_container">
+					<h4 class=" sub_title">
+						Have you completed high school (secondary school)<i class="q-icon-o">?</i>*
+					</h4>
+					<div class="secondary_status tab_status">
+						<button class="btn f_tab b_r-left" option_value="Yes">Yes</button>
+						<button class="btn f_tab b_r-right" option_value="No">No</button>
+					</div>
+				</div>		
+			</div>
+
+			<div class="work">
+				<h1 class="f_title">
+					Your Work History
+				</h1>
+				<div class="work_container">
+					<h4 class=" sub_title">
+						Have you done any paid work during the last 10 years<i class="q-icon-o">?</i>*
+					</h4>
+					<div class="work_10yrs_status tab_status">
+						<button class="btn f_tab b_r-left" option_value="Yes">Yes</button>
+						<button class="btn f_tab b_r-right" option_value="No">No</button>
+					</div>
+				</div>
+				
+			</div>
+
+
+			<div class="express">
+				<h1 class="f_title">
+					Express Entry Profile
+				</h1>
+				<div class="express_container">
+					<h4 class=" sub_title">
+						Have you already submitted an Express Entry profile to the Government of Canada within the past 12 months<i class="q-icon">?</i>
+					</h4>
+					<div class="express_submission_status tab_status">
+						<button class="btn f_tab b_r-left" option_value="Yes">Yes</button>
+						<button class="btn f_tab b_r-right" option_value="No">No</button>
+					</div>	
+				</div>
+			</div>
+
+
+			<div class="job_offer">
+				<h1 class="f_title">
+					Canadian Job Offer
+				</h1>
+				<div class="express_container">
+					<h4 class=" sub_title">
+						Do you have a written job offer from a Canadian employer<i class="q-icon">?</i>
+					</h4>
+					<div class="express_submission_status tab_status">
+						<button class="btn f_tab b_r-left" option_value="Yes">Yes</button>
+						<button class="btn f_tab b_r-right" option_value="No">No</button>
+					</div>	
+				</div>
+			</div>
+
+
+			<div class="family">
+				<h1 class="f_title">
+					Family or Friends in Canada
+				</h1>
+				<div class="family_container">
+					<h4 class=" sub_title">
+						Do you have a close friend living in the province of Manitoba who is 18 years or older<i class="q-icon-o">?</i>
+					</h4>
+					<div class="family_under18_status tab_status">
+						<button class="btn f_tab b_r-left" option_value="Yes">Yes</button>
+						<button class="btn f_tab b_r-right" option_value="No">No</button>
+					</div>
+					<h4 class=" sub_title">
+						Do you have any family members or relatives living in Canada and who are 18 years or older<i class="q-icon">?</i>
+					</h4>
+					<div class="family_above18_status tab_status">
+						<button class="btn f_tab b_r-left" option_value="Yes">Yes</button>
+						<button class="btn f_tab b_r-right" option_value="No">No</button>
+					</div>	
+				</div>
+			</div>
+
+			<div class="net">
+				<h1 class="f_title">
+					Your Personal Net Worth
+				</h1>
+				<div class="f_desc">
+					<p>This question is optional. Net worth is considered for some immigration programs.</p>
+				</div>
+				<div class="net_container">
+					<div class="net_currency">
+						<figure class="fig">
+							<label class="lbl sub_title" for="currency"> Currency </label>
+							<select class="slc" id="currency">
+
+							</select>	
+						</figure>
+
+						<figure class="fig">
+							<label class="lbl sub_title" for="amount"> Amount </label>
+							<select class="slc" id="amount">
+								<option value="">Select</option>
+								<option value="9999">less than 10,000</option>
+								<option value="10000">between 10,000 and 25,000</option>
+								<option value="25000">between 25,000 and 100,000</option>
+								<option value="100000">between 100,000 and 500,000</option>
+								<option value="500000">between 500,000 and 1,000,000</option>
+								<option value="1000000">between 1,000,000 and 2,000,000</option>
+								<option value="2000000">more than 2,000,000</option>	
+							</select>
+						</figure>
+
+					</div>	
+				</div>
+				
+			</div>
+
+
+			<div class="contact_info">
+				<h1 class="f_title">
+					Enter Your Contact Information
+				</h1>
+				<div class="contact_info_fields">
+					<figure class="fig">
+						<label class="lbl sub_title" for="First_Name" >First Name*</label>
+						<input class="input" type="text" name="First_Name" id="First_Name" placeholder="Enter your first name">
+					</figure>
+					<figure class="fig">
+						<label class="lbl sub_title" for="Last_Name" >Last Name*</label>
+						<input class="input" type="text" name="Last_Name" id="Last_Name" placeholder="Enter your last name">
+					</figure>
+
+					<figure class="fig">
+						<label class="lbl sub_title" for="email" >Email*</label>
+						<input class="input" type="email" name="email" id="email" placeholder="Enter your email address">
+					</figure>
+					<figure class="fig">
+						<label class="lbl sub_title" for="telephone" >Telephone</label>
+						<input class="input" type="text" name="telephone" id="telephone" placeholder="Enter your phone number, including country code and city/area code">
+					</figure>
+				</div>
+			</div>
+
+
+			<div class="question">
+				<h1 class="f_title">
+					Questions and Comments
+				</h1>
+				<div class="question_status">
+					<h4 class=" sub_title">
+						You may provide additional information that you think would be relevant to your immigration assessment. Would you like to add information at this time<i class="q-icon">?</i>
+					</h4>
+
+					<div class="have_question_status tab_status">
+						<button class="btn f_tab b_r-left" option_value="Yes">Yes</button>
+						<button class="btn f_tab b_r-right" option_value="No">No</button>
+					</div>
+					
+				</div>
+			</div>
+
+
+			<div class="newsletter">
+				<h1 class="f_title">
+					Immigration Newsletter
+				</h1>
+				<div class="question_status">
+					<h4 class=" sub_title">
+						You may provide additional information that you think would be relevant to your immigration assessment. Would you like to add information at this time<i class="q-icon">?</i>
+					</h4>
+
+					<div class="have_question_status checkboxes">
+						<input type="checkbox" id="newsletter"  name="Newsletter">
+						<label for="newsletter">
+							Yes, please send me the free Canadian Immigration Newsletter by email.
+						</label>
+
+						<input type="checkbox" id="offers" name="offers">
+						<label for="offers">
+							Yes, I would like to receive timely immigration information and special  from CanadaVisa.com and trusted partners.
+						</label>
+					</div>
+					
+				</div>
+			</div>
+			<input type="submit" id="f_submit" name="f_submit" value="Submit">
+		</form>
+	</main>
+</section>
+
+<script src="./assets/js/custom.js"></script>
+<script src="./assets/js/main.js"></script>
+
+</body>
+</html>
